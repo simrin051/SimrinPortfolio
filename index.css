@@ -1,0 +1,208 @@
+body{
+    background-color:#FFFFE6;
+}
+
+.navbar
+{
+    background-color: #00B3B3;
+    padding: 2rem;
+    color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    
+}
+
+.nav-item .nav-link
+{
+    margin-top:0rem;
+    color: white;
+}
+
+.position
+{
+    background-color: palegreen;
+    margin:auto;
+    text-align: center;
+    margin-top:0rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.framework-image
+{
+    background-image:url(frameworks.svg);
+    display: block !important;
+    width: 50%;
+    height: 60%;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 2rem;
+    align-items: center;
+  
+}
+
+.technologies
+{
+    width: 80%;
+    height:20%;
+    position: relative;
+    margin-top: 0rem;
+    margin-left:10%;
+    margin-right:10%;
+    margin: auto;
+    display: block !important;
+}
+
+.title
+{
+    text-align: center;
+    margin: auto;
+}
+.technologies
+{
+background-color:#D3D3D3;
+text-align: center;
+align-items: center;
+position: absolute;
+display: block;
+width: 100%;
+}
+.projects
+{
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: block;
+    width: 50%; 
+    margin: auto;
+    margin-top: 5rem;
+    
+}
+.projects-btn
+{
+    
+    background-color: #E52B50 ;
+    border :1px solid black;
+    padding: 0.5rem;
+    margin-left:0rem;
+    position:relative;
+}
+.blogs
+{
+    background-color: #FAA2C2;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: block;
+    width: 50%; 
+    margin: auto;
+    margin-top: 2rem;
+  
+}
+.blogs-btn
+{
+    
+    background-color: #E52B50 ;
+    border :1px solid black;
+    margin-left:0%;
+    position: relative;
+    padding: 0.5rem;
+}
+
+.connectWithMe
+{
+    margin: auto;
+    margin-top: 2rem;
+    position: relative;
+    display: block;
+    width: 50%; 
+    background-color: #00B3B3;
+    text-align: center;
+}
+
+.social-icons li
+ {
+    display: inline-block;
+   width: auto;
+   list-style: outside none none;
+ }
+
+ .icon
+ {
+     font-size: 2rem;
+    position: relative;
+    margin-right: 2rem;
+ }
+
+ .container
+ {
+     background-color: #FFFFE6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:2rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+     position:relative;
+     display: block;
+     width: 50%;
+     padding:2rem;
+ }
+ 
+
+.container:nth-child(2) 
+  {
+    background-color: #FFFFE6;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:none !important;
+    margin-bottom:2rem;
+     position:relative;
+     display: block;
+     width: 50%;
+     padding:2rem;
+}
+.connectWithMe
+{
+    background-color: #00B3B3;
+    margin-left: 0px;
+    margin-right: 0px;
+    box-shadow:none;
+    margin-bottom:0rem;
+     position:relative;
+     display: block;
+     width: 100% !important;
+     bottom:0px;
+     margin-bottom: 0%;
+     min-width: 100%;
+}
+ .dot {
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color:#00B3B3;
+    border-radius: 50%;
+    display: inline-block;
+    
+    position:relative;
+  }
+
+  .dots
+  {
+      position: relative;
+      margin-left: auto;
+      margin-right:auto;
+      display: block;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 2rem;
+  }
+
+  i{
+   color: #E52B50 ;
+  }
+
+  .nav-item
+  {
+      float:right;
+      position: relative;
+  }
