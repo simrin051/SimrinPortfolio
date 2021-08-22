@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@488&family=Poppins:wght@400;500&display=swap");
+
+/***************************/
+header
+{
+
+    background-color:#ADD8E6;
+    font-family: 'Poppins';
+    width: 100%;
+    left:0;
+    right:0;
+    top:0;
+    position: absolute;
+}
+
+nav
+{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.nav-link
+{
+    display: inline-block;
+    float: right;
+    margin-right:1rem;
+}
+
+/******************/
+
+body{
+    background-color: #fef6e4;
+    margin: 0rem;
+    font-family: 'Poppins';
+}
+
+.position
+{
+    background-color: palegreen;
+    margin:auto;
+    text-align: center;
+    margin-top:0rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.framework-image
+{
+    background-image:url(frameworks.svg);
+    display: block !important;
+    width: 50%;
+    height: 60%;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 2rem;
+    align-items: center;
+  
+}
+.title
+{
+    text-align: center;
+    margin: auto;
+}
+.technologies
+{
+background-color:#D3D3D3;
+text-align: center;
+align-items: center;
+position: absolute;
+display: block;
+width: 100%;
+}
+.projects
+{
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: block;
+    width: 50%; 
+    margin: auto;
+    margin-top: 5rem;
+    
+}
+.projects-btn
+{
+    
+    background-color:  #f582ae;;
+    border :1px solid black;
+    padding: 0.5rem;
+    margin-left:0rem;
+    position:relative;
+}
+.blogs
+{
+    background-color: #FAA2C2;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: block;
+    width: 50%; 
+    margin: auto;
+    margin-top: 2rem;
+  
+}
+.blogs-btn
+{
+    
+    background-color:  #f582ae;;
+    border :1px solid black;
+    margin-left:0%;
+    position: relative;
+    padding: 0.5rem;
+}
+
+.container
+ {
+    background-color:#fef6e4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:2rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+     position:relative;
+     display: block;
+     width: 50%;
+     padding:2rem;
+ }
+ 
+
+.container:nth-child(2) 
+  {
+    background-color: #fef6e4;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:none !important;
+    margin-bottom:2rem;
+     position:relative;
+     display: block;
+     width: 50%;
+     padding:2rem;
+     margin-top:4rem;
+}
+ 
+  i{
+   color: #E52B50 ;
+  }
+
+  
+
+  .techicon
+  {
+      
+      max-width: 3%;
+      max-height:3%;
+  }
+
+
+  .details
+  {
+    box-shadow:none !important;    
+    margin-top: 3rem; 
+  }
+
+
+  hr{
+    border: 0;
+    border-top: 0.6rem dotted #8bd3dd;
+    width: 4rem;
+    margin: 3rem auto
+}
+
+footer
+{
+    width:100%;
+    background-color:#8bd3dd; 
+    margin-bottom:0px;
+    position: absolute;
+    text-align: center;
+}
+
+.social-icons li
+{
+    display: inline-block;
+    margin-right: 2rem;
+}
