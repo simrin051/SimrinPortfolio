@@ -27,6 +27,14 @@ nav
     float: right;
     margin-right:1rem;
 }
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
 /********************/
 body{
     background-color: #fef6e4;
@@ -50,7 +58,7 @@ body{
     position: relative;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-top: 2rem;
+    margin-top: 5rem;
     align-items: center;
 }
 

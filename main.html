@@ -5,23 +5,20 @@
     <link 
     href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
     rel="stylesheet"  type='text/css'> 
+    <link rel="shortcut icon" href="favicon1.gif" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
 </head>
 <body>
     <header>
-        <nav>
-            <a class="Name" href="index.html" ><span class="Name">&lt;Simrin Joshi&gt;</span></a>
-            <ul class="nav-links">
-                <li class="nav-link">
-                  <a class="active-nav-link" href="main.html">HOME</a>
-                </li>
-                <li class="nav-link"><a href="projects.html">PROJECTS</a></li>
-                <li class="nav-link"><a href="blog.html" >BLOGS</a></li>
-              </ul>
-        </nav>
-    </header>       
-    <div class="details container">
+      <nav>
+        <a class="Name" href="index.html" ><span class="Name" style=" color: #E52B50 ;" >&lt;Simrin Joshi&gt;</span></a>
+  
+    </nav>
+    </header> 
+    <label><input id="theme-checkbox" type="checkbox" /><span class="theme-toggle"></span></label>
+    
+    <div class="details">
         <centre><h2>I'm a Full Stack Developer</h2></centre>
          <p>I have 2 years of working in FileNet domain. </p>
         </div> 
@@ -34,14 +31,14 @@
               ,Git <span><img class="techicon giticon"  src="images/git.svg" /></span>
               ,JavaScript <span><img class="techicon  jsicon"  src="images/javascript.svg" /></span>
                ,Spring <span><img class="techicon" src="images/springicon.svg" /></span>
-               ReactJS basics <span><img class="techicon reacticon" src="images/react.svg" /></span> , and 
+               ,ReactJS basics <span><img class="techicon reacticon" src="images/react.svg" /></span> , and 
               Web Hosting <span><img class="techicon reacticon" src="images/netlify.svg" /></span> </p> 
         </div>
   <hr/>  
         <div class="container">
           <h2>Projects</h2>
           <p>Projects pushed to github and hosted online</p> 
-          <button class="projects-btn">SEE PROJECTS</button>
+          <button class="projects-btn" onclick="location.href='projects.html'">SEE PROJECTS</button>
         </div>
   <hr/>
         <div class="container">
@@ -61,7 +58,5 @@
           </ul>
         </footer>
       </body>
-
-</body>
 
 </html>
